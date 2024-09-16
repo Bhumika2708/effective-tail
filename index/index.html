@@ -10,15 +10,25 @@
         <title> Vite + React</title>
     </head>
     <body class="bg-slate-400">
-      <nav class="bg-slate-700 text-gray-300 flex justify-between px-4 py-1">
+       <nav class="bg-slate-700 text-gray-300 flex justify-between px-4 py-1 w-[100%]  mx-auto">
         <span class="text-2xl flex items-center mx-7 font-extrabold">TAILWIND</span>
-        <ul class="px-2.5 py-4 flex space-x-10 justify-end font-bold cursor-pointer">
-        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125  "> Assignment 1</ul>
-        <a href="responsive.html">
-        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125">Assignment 2</ul> </a>
-        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125  "> Contact</ul>
-        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125  default_pointer_land">Links</ul>
+        <ul class="px-2.5 py-4 flex space-x-10 justify-end font-bold cursor-pointer md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full  items-center">
+          <div class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125 "> 
+          <a href="#">
+          Assignment 1</a></ul>
+        
+        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125">
+          <a href="responsive.html">
+          Assignment 2 </a></ul> </a>
+        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125 "> 
+          <a href="#">
+          Contact </a></ul>
+        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125  default_pointer_land">
+          <a href="#">
+          Links </a></ul>
         </ul>
+      </div>
       </nav>
       <section class="flex items-center justify-center h-screen bg-slate-400">
         <div class="container mx-4 py-48 px-4 pl-9 my-4 flex flex-col lg:flex-row items-center">
