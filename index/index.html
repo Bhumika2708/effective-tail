@@ -9,23 +9,23 @@
         <title> Vite + React</title>
     </head>
     <body class="bg-slate-400">
-      
-      <nav class="bg-slate-700 text-gray-300 flex justify-between px-4 py-1 w-[100%]  mx-auto ">
+      <main class="bg-slate-400">
+      <nav class="bg-slate-700 text-gray-300 flex justify-between px-4 py-1 sm:py-1 md:py-0">
         <span class="text-2xl flex items-center mx-7 font-extrabold">TAILWIND</span>
         
-        <ul class="px-2.5 py-4 flex space-x-10 justify-end font-bold cursor-pointer md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full  items-center">
-          <div class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
-        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125 "> 
+        <ul class="px-2.5 py-4 flex space-x-10 justify-end font-bold cursor-pointer   items-center">
+          
+        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125 hidden md:block"> 
           <a href="#">
           Assignment 1</a></ul>
         
         <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125">
           <a href="responsive.html">
           Assignment 2 </a></ul> </a>
-        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125 "> 
+        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125 hidden md:block"> 
           <a href="#">
           Contact </a></ul>
-        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125  default_pointer_land">
+        <ul class="cursor-pointer hover:underline hover:text-white hover:scale-125  default_pointer_land hidden md:block">
           <a href="#">
           Links </a></ul>
         </ul>
@@ -44,9 +44,9 @@
                     Explore More
                 </button>
             </div>
-            <div class=" flex justify-center mt-6 lg:mt-0 hover:scale-125  lg:w-1/2">
+            <div class=" flex justify-center mt-6 lg:mt-0 hover:scale-125  lg:w-1/2 hidden md:block">
               
-                <img src="src/post.png" class="h-96 w-96">
+                <img src="src/post.png" class="h-96 w-96 ">
             </div>
           </div>
         </div>
@@ -99,6 +99,8 @@
   <footer class="bg-slate-700 text-center py-6 my-6">
     <p class="text-gray-200 md:tracking-[0.9em] tracking-widest">&copy; Bhuxx X Tailwind</p>
 </footer>
+</main>
+
 
   </body>
 </html>
